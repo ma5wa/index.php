@@ -1,0 +1,6 @@
+# إعدادات تجاهل الملفات لمشاريع PHP و XAMPP
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
