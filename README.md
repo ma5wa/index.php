@@ -21,22 +21,6 @@
 
 ---
 
-## 🚀 طريقة التشغيل عبر XAMPP
-
-1. غيّر اسم المجلد في XAMPP إلى `smart-store`:
-   ```
-   C:/xampp/htdocs/smart-store
-   ```
-2. شغّل سيرفر **Apache** و **MySQL** من برنامج **XAMPP Control Panel**.
-3. افتح المتصفح وتوجه إلى الرابط التالي:
-   ```
-   http://localhost/smart-store/index.php
-   ```
-4. ستقوم الصفحة تلقائياً بإنشاء قاعدة البيانات `store_db` والجدول `products` عند أول زيارة.
-
----
-
-## 🗄️ ملف قاعدة البيانات
 - يتوفر ملف `database.sql` جاهز للاستيراد المباشر داخل phpMyAdmin إن رغبت في استيراده يدوياً.
 - رابط لوحة phpMyAdmin:
   ```
@@ -44,9 +28,3 @@
   ```
 
 ---
-
-## 🛠️ التقنيات المستخدمة
-- **PHP** (Native & Simple)
-- **MySQL / MariaDB**
-- **HTML5 & CSS3** (Vanilla CSS مع لوحة ألوان دافئة)
-- **QR Code API** لتوليد باركود المنتجات
